@@ -1,0 +1,64 @@
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    
+    <script>
+
+
+
+//3. Create an array of at least five Student objects with the 
+//following properties: name, activity, gender
+
+//- Filter all those students who are into swimming
+
+//- Filter all those students who are in the activity entered 
+//by the user. For example, if the user enters "Basketball" display 
+//only students with basketball as their activity 
+const students=[
+{
+    name:"superman",
+    activity:"basketball",
+    gender:"female"
+},
+{
+    name:"batman",
+    activity:"swimming",
+    gender:"male"
+},
+{
+    name:"spiderman",
+    activity:"basketball",
+    gender:"male"
+},
+{
+    name:"storm",
+    activity:"basketball",
+    gender:"female"
+},
+{
+    name:"hulk",
+    activity:"basketball",
+    gender:"female"
+},
+  
+]
+
+const gamechoice=students.filter(student =>  (student.activity==="swimming"))
+console.log(gamechoice);
+
+
+</script>
+
+</body>
+</html>
+
